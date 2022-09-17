@@ -68,7 +68,7 @@ export const config = {
       // 所在省份
       province: "云南",
       // 所在城市
-      city: "保山",
+      city: "隆阳区",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '10-11',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -116,21 +116,25 @@ export const config = {
       customizedDateList: [
         //相识的时间
         {"keyword": "rem_day", date: "2015-08-24"},
-        //距离2022年论文开题答辩日期
-        {"keyword": "lw_day", date: "2022-11-10"},
       ]
     },
     {
-      name: "李四",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      name: "小陶",
+      id: "o0t3H5vTrbCHFE7qDOOYF1SNiqrc",
+      useTemplateId: "LofRv6OaD11dK60uGNjy1Oc_Ns9weN4d7q15lnqNMpA",
+      province: "云南",
+      city: "昆明",
+      horoscopeDate: '03-24',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [
+        {"type": "生日", "name": "小陶", "year": "1999", "date": "03-24"},
+        {"type": "节日", "name": "2023年", "year": "2022", "date": "12-31"},
+      ],
+      customizedDateList: [
+        //相识的时间
+        {"keyword": "rem_day", date: "2018-08-19"},
+      ]
     },
     {
       name: "王五",
@@ -153,7 +157,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "-N-lC7xOR6I544UlS7lBiVSCQ5FFK-ImJSB1_Bb3SbA",
+  CALLBACK_TEMPLATE_ID: "KSc5nnTOdHBFMGQ6eXG5H-FZLXV3ULuniXkA0qLB1pU",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -162,6 +166,12 @@ export const config = {
       name: "小新",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o0t3H5iJPExOzveA0B3I2lDiZRBU",
+    },
+    {
+      // 一般都填自己
+      name: "小白",
+      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "o0t3H5jZK2pKg5yz7UAX4Mynkz8I",
     },
     // 你可以不断按格式往下增加
     // ...
