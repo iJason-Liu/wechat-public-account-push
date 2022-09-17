@@ -88,11 +88,11 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
+        //{"keyword": "love_day", date: "2022-09-08"},
         // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
+        //{"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        //{"keyword": "ex_day", date: "2022-09-10"},
         //相识的时间
         {"keyword": "rem_day", date: "2020-05-25"},
         //距离2022年论文开题答辩日期
@@ -100,7 +100,28 @@ export const config = {
       ]
     },
     {
-      name: "沾上干",
+      name: "小白",
+      id: "o0t3H5jZK2pKg5yz7UAX4Mynkz8I",
+      useTemplateId: "03CXxAQAiBINbTjFYA3ao6aXiBWWI8vZJNw9Wswc_dI",
+      province: "云南",
+      city: "普洱",
+      horoscopeDate: '02-02',
+      horoscopeDateType: '今日',
+      openUrl: "https://wangxinleo.cn",
+      festivals: [
+        {"type": "生日", "name": "小白", "year": "2000", "date": "02-02"},
+        {"type": "节日", "name": "国庆节", "year": "2022", "date": "10-01"},
+        {"type": "节日", "name": "2023年", "year": "2022", "date": "12-31"},
+      ],
+      customizedDateList: [
+        //相识的时间
+        {"keyword": "rem_day", date: "2015-08-24"},
+        //距离2022年论文开题答辩日期
+        {"keyword": "lw_day", date: "2022-11-10"},
+      ]
+    },
+    {
+      name: "李四",
       id: "",
       useTemplateId: "",
       province: "",
@@ -112,19 +133,7 @@ export const config = {
       customizedDateList: []
     },
     {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
+      name: "王五",
       id: "",
       useTemplateId: "",
       province: "",
