@@ -64,11 +64,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o0t3H5iJPExOzveA0B3I2lDiZRBU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "jnqB2jbZVM1JMun4r97P_sY8SMS9zFTNEBlld4O_I6M",
+      useTemplateId: "1PvdB-w1YzqVO4CW4qEagi5Pv-H9_nLoZioOB1XgzUQ",
       // 所在省份
       province: "云南",
       // 所在城市
-      city: "隆阳区",
+      city: "保山",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '10-11',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -102,7 +102,7 @@ export const config = {
     {
       name: "小白",
       id: "o0t3H5jZK2pKg5yz7UAX4Mynkz8I",
-      useTemplateId: "03CXxAQAiBINbTjFYA3ao6aXiBWWI8vZJNw9Wswc_dI",
+      useTemplateId: "xyH9dMnrff9baCp4ZH3CpetzbSg88JGg36R_dC07svw",
       province: "云南",
       city: "普洱",
       horoscopeDate: '02-02',
@@ -137,7 +137,7 @@ export const config = {
       ]
     },
     {
-      name: "王五",
+      name: "李四",
       id: "",
       useTemplateId: "",
       province: "",
@@ -157,7 +157,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "KSc5nnTOdHBFMGQ6eXG5H-FZLXV3ULuniXkA0qLB1pU",
+  CALLBACK_TEMPLATE_ID: "o-BpPgLIIHgtziR23KkrYlsvg7mpQjTH07WqqSabkyU",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -166,12 +166,6 @@ export const config = {
       name: "小新",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o0t3H5iJPExOzveA0B3I2lDiZRBU",
-    },
-    {
-      // 一般都填自己
-      name: "小白",
-      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o0t3H5jZK2pKg5yz7UAX4Mynkz8I",
     },
     // 你可以不断按格式往下增加
     // ...
