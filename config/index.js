@@ -121,7 +121,7 @@ export const config = {
     {
       name: "小陶",
       id: "o0t3H5vTrbCHFE7qDOOYF1SNiqrc",
-      useTemplateId: "LofRv6OaD11dK60uGNjy1Oc_Ns9weN4d7q15lnqNMpA",
+      useTemplateId: "34NdX6wBR7Mh91qFLDcWCBFbAU9wRx_JW_RFBzFe-rw",
       province: "云南",
       city: "昆明",
       horoscopeDate: '03-24',
