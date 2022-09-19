@@ -74,7 +74,7 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://weibo.com/hot/search",
+      openUrl: "http://47.112.23.238/",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -107,7 +107,7 @@ export const config = {
       city: "普洱",
       horoscopeDate: '02-02',
       horoscopeDateType: '今日',
-      openUrl: "https://weibo.com/hot/search",
+      openUrl: "http://47.112.23.238/",
       festivals: [
         {"type": "生日", "name": "小白", "year": "2000", "date": "02-02"},
         {"type": "节日", "name": "国庆节", "year": "2022", "date": "10-01"},
@@ -126,7 +126,7 @@ export const config = {
       city: "昆明",
       horoscopeDate: '03-24',
       horoscopeDateType: '今日',
-      openUrl: "https://weibo.com/hot/search",
+      openUrl: "http://47.112.23.238/",
       festivals: [
         {"type": "生日", "name": "小陶", "year": "1999", "date": "03-24"},
         {"type": "节日", "name": "2023年", "year": "2022", "date": "12-31"},
