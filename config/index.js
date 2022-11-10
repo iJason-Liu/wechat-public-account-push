@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o0t3H5iJPExOzveA0B3I2lDiZRBU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "gxsx5yGSPJn-oQC2XkrSIeaAmpEwJIbpG_9DuaDHzg4",
+      useTemplateId: "UB2x0wttLutWRV3EXzoUYh7QmbmPK0IxY3aQPPwF9DE",
       // 所在省份
       province: "云南",
       // 所在城市
@@ -103,7 +103,7 @@ export const config = {
     {
       name: "小白",
       id: "o0t3H5jZK2pKg5yz7UAX4Mynkz8I",
-      useTemplateId: "8sRY3Wpo_Utd2mZvt1LlrNyeHnkBwDq0dMhxO09ETWg",
+      useTemplateId: "IK1JGP7A3aSfAG1ND0_ZiR-qd4x79iGJi14IypHnpbY",
       province: "云南",
       city: "普洱",
       horoscopeDate: '02-02',
@@ -123,7 +123,7 @@ export const config = {
     {
       name: "小陶",
       id: "o0t3H5vTrbCHFE7qDOOYF1SNiqrc",
-      useTemplateId: "x6nPHUEcYvgiZk0dBx1A9z3M5a8rO0kbZIdQJRz9jCI",
+      useTemplateId: "pXcPcy8F4CbESmmvkaDybfDfYlqgELgbv5bowAX1-WU",
       province: "云南",
       city: "昆明",
       horoscopeDate: '03-24',
